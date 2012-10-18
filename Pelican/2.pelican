@@ -1,0 +1,20 @@
+program test1 is
+var a : integer;
+var b : integer;
+begin
+a := 9;
+b:= 2;
+write b
+declare 
+const a=5;
+var c : boolean; 
+begin
+b:=a+3*4;
+c := b-3;
+write c
+write b
+end;
+a := a+4;
+write a
+write b
+end

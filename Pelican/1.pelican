@@ -1,0 +1,14 @@
+program test1 is
+var a : integer;
+begin
+a := 0; 
+declare
+const a=3;
+var b : integer;
+begin
+b := a+2;
+write b
+end;
+a := a+4;
+write a
+end

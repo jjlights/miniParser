@@ -1,0 +1,11 @@
+program trace2 is
+var n,f : integer;
+procedure fac(n : integer) is
+procedure mul(m : integer) is begin f := f*m; end;
+begin
+if n=0 then f:=1;
+else fac(n-1); mul(n); end if;
+end;
+begin
+n := 4; fac(n); write f
+end

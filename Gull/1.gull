@@ -1,0 +1,21 @@
+program labels is
+begin 
+s:=0;m:=1;
+goto clear
+outer:
+if m<=5 
+then n:= 1;
+inner:
+if n<= 4
+then s:=s+m*n; goto next
+s := 1;
+next: n:=n+1;
+goto inner
+else
+m := m+1;
+goto outer
+end if;
+else goto done
+end if;
+done: ans := n;
+end

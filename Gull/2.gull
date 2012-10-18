@@ -1,0 +1,12 @@
+program labels is
+begin 
+s:=0;m:=1;
+n:=0;
+inner:
+if n<10 then n:=n+1;
+goto inner
+else goto next
+end if;
+s := 2;
+next: m:=3;
+end

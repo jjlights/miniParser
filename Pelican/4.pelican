@@ -1,0 +1,27 @@
+program test1 is
+var a : integer;
+var b : integer;
+begin
+a := 9;
+b:= 2;
+write b
+declare 
+const a=5;
+var c : boolean; 
+begin
+b:=a+3*4;
+c := b-3;
+write c
+write b
+declare
+var b:integer;
+begin
+b:=a+8;
+write b
+end;
+write b
+end;
+a := a+1;
+write a
+write b
+end

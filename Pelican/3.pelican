@@ -1,0 +1,9 @@
+program trace1 is
+var a : integer;
+procedure q1 is
+begin a:=a+2; 
+write a
+a := 5; write a end;
+begin
+a := 1; q1; write a+4
+end
