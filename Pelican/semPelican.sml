@@ -1,4 +1,4 @@
-(* Sematics Functions *)
+(* Semantics Functions *)
 
 use "parPelican.sml";
 use "tablePelican.sml";
